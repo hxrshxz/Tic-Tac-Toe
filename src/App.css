@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0
+}
+
+body{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: auto;
+  margin: 10px;
+
+}
+
+.reset {
+  margin: 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 1rem;
+  color:#26ffcb;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0px;
+  font-family: monospace;
+  color:#26ffcb ;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.boxes {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+
+.Circle, .Cross {
+  color: white;
+  height: 70px;
+  width: 70px;
+  flex-shrink: 0;
+}
